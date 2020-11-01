@@ -17,8 +17,6 @@ composer require mlabate/restful-codeigniter
 
 ## Usage
 
-```
-
 Note that you will need to copy `rest.php` to `config` directory (e.g. `application/config`)
 
 Step 1: Add this to your controller (should be before any of your code)
