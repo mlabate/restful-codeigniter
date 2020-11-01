@@ -2,7 +2,7 @@
 
 [![StyleCI](https://github.styleci.io/repos/230589/shield?branch=master)](https://github.styleci.io/repos/230589)
 
-A fully RESTful server implementation for CodeIgniter using one library, one config file and one controller.
+RESTful server implementation for CodeIgniter
 
 ## Requirements
 
