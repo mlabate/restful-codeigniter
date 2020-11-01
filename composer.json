@@ -1,6 +1,6 @@
 {
     "name": "mlabate/restful-codeigniter",
-    "description": "CI Rest Server",
+    "description": "Rest Server for CodeIgniter",
     "type": "library",
     "license": "MIT",
     "authors": [
