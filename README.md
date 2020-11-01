@@ -17,19 +17,9 @@ composer require mlabate/restful-codeigniter
 
 ## Usage
 
-CodeIgniter Rest Server is available on [Packagist](https://packagist.org/packages/mlabate/restful-codeigniter) (using semantic versioning), and installation via composer is the recommended way to install Codeigniter Rest Server. Just add this line to your `composer.json` file:
-
-```json
-"mlabate/restful-codeigniter": "^3.1"
 ```
 
-or run
-
-```sh
-composer require mlabate/restful-codeigniter
-```
-
-Note that you will need to copy `rest.php` to your `config` directory (e.g. `application/config`)
+Note that you will need to copy `rest.php` to `config` directory (e.g. `application/config`)
 
 Step 1: Add this to your controller (should be before any of your code)
 
@@ -45,10 +35,10 @@ class Example extends RestController
 
 ## Basic GET example
 
-Here is a basic example. This controller, which should be saved as `Api.php`, can be called in two ways:
-
-* `http://domain/api/users/` will return the list of all users
-* `http://domain/api/users/id/1` will only return information about the user with id = 1
+The following sample controller (saved as `Api.php`) can be called in two ways:
+<>
+* `http://my-domain/api/users/` will return the list of all users
+* `http://my-domain/api/users/id/1` will only return information about the user with id = 1
 
 ```php
 <?php
