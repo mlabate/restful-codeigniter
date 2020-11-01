@@ -1,0 +1,17 @@
+{
+    "name": "mlabate/restful-codeigniter",
+    "description": "CI Rest Server",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mario Labate",
+            "email": "labate.mario@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {"mlabate\\RestServer\\": "src/"}
+    },
+    "require": {}
+}
